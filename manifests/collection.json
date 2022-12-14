@@ -1,0 +1,13 @@
+{
+  "id" : "https://dybarber.github.io/UC-demo/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in dybarber/UC-demo project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://dybarber.github.io/UC-demo/manifests/manifest2.json",
+    "label" : "Lübeck Bible"
+  } ]
+}
