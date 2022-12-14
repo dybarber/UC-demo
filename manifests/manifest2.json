@@ -1,0 +1,173 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://dybarber.github.io/UC-demo/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Lübeck Bible",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Unde anderer velen hillighen doctoren [especially Hugo de Sancto Victore]"
+  }, {
+    "label" : "Publisher",
+    "value" : "Vormiddelst Steffen Arndes"
+  }, {
+    "label" : "Place",
+    "value" : "Lubick [Lübeck]"
+  }, {
+    "label" : "Date",
+    "value" : "1494"
+  }, {
+    "label" : "Alternative Title",
+    "value" : "De Biblie mit vlitigher achtinghe: recht na deme latine in dudesck auerghesettet Mit vorluchtinghe unde glose: des hochghelerden Postillatoers Nicolai de lyra"
+  }, {
+    "label" : "Notes",
+    "value" : "Spine title: Biblia Germanica. Gen. - Psa.Lubec. Typ. S. Arndes. 1494"
+  } ],
+  "description" : [ {
+    "@value" : "The Lubeck Bible can be under the titles: De Biblie mit vlitigher achtinghe: recht na deme latine in dudesck auerghesettet Mit vorluchtinghe vnde glose: des hochghelerden Postillatoers Nicolai de lyra Vnde anderer velen hillighen doctoren – Or shortened variations of Biblia [Nederduits]. De Biblie De Biblie in dudesck. Biblia Sacra Germanica",
+    "@language" : "en"
+  } ],
+  "viewingHint" : "paged",
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Provided by the University of Canterbury Library",
+  "sequences" : [ {
+    "@id" : "http://04edd873-096a-49c3-8ef9-4ced7a5b4177",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://19184c4c-dea7-4313-8672-90f87e10f5bf",
+      "@type" : "sc:Canvas",
+      "label" : "Upper cover",
+      "height" : 5496,
+      "width" : 4057,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://68514d98-045e-4c47-9a79-d36e9eb766f9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-001-upper-cover.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-001-upper-cover.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5496,
+          "width" : 4057
+        },
+        "on" : "http://19184c4c-dea7-4313-8672-90f87e10f5bf"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4a22e960-76ae-4283-a9d1-6151ff7df329",
+      "@type" : "sc:Canvas",
+      "label" : "Inside upper cover",
+      "height" : 5390,
+      "width" : 3910,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7d378343-2028-4ea5-8f5d-e4d78c66a1ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-002-Inside-upper-cover.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-002-Inside-upper-cover.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5390,
+          "width" : 3910
+        },
+        "on" : "http://4a22e960-76ae-4283-a9d1-6151ff7df329"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6455e78a-8cc6-4b7b-80fc-6d8cd1787c0f",
+      "@type" : "sc:Canvas",
+      "label" : "Folio a1 recto",
+      "height" : 5388,
+      "width" : 3909,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://78e1bed2-f54b-49fe-8528-e9f387ef7b94",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-007-fol-a1r.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-007-fol-a1r.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5388,
+          "width" : 3909
+        },
+        "on" : "http://6455e78a-8cc6-4b7b-80fc-6d8cd1787c0f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c616238c-d6f1-4746-a5de-8c17e15fc60c",
+      "@type" : "sc:Canvas",
+      "label" : "Folio a2 verso",
+      "height" : 5388,
+      "width" : 3909,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2dfc0906-27c1-4f8c-b6c5-1890383dcf9a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-008-fol-a1v.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.canterbury.ac.nz/iiif/2/MB%2FLubeck-483622-008-fol-a1v.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5388,
+          "width" : 3909
+        },
+        "on" : "http://c616238c-d6f1-4746-a5de-8c17e15fc60c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/cover" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/cover",
+    "@type" : "sc:Range",
+    "label" : "Cover",
+    "canvases" : [ "http://19184c4c-dea7-4313-8672-90f87e10f5bf" ]
+  } ]
+}
