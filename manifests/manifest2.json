@@ -3,6 +3,11 @@
   "@id" : "https://dybarber.github.io/UC-demo/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Lübeck Bible",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/14190148/dee7d94f717ac3b6c425e8caaf9f6d9c/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Unde anderer velen hillighen doctoren [especially Hugo de Sancto Victore]"
@@ -95,6 +100,13 @@
         },
         "on" : "http://4a22e960-76ae-4283-a9d1-6151ff7df329"
       } ],
+	  "otherContent": [
+        {
+          "@id": "https://dybarber.github.io/UC-demo/annotations/annotations.json",
+          "@type": "sc:AnnotationList",
+          "label": "Inside upper cover annotations"
+        }
+      ],
       "related" : ""
     }, {
       "@id" : "http://6455e78a-8cc6-4b7b-80fc-6d8cd1787c0f",
