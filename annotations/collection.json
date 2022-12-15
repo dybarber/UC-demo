@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://dybarber.github.io/UC-demo/annotations/annotations.json" ],
+  "@id" : "https://dybarber.github.io/UC-demo/annotations/collection.json",
+  "label" : "All annotations loaded in dybarber/UC-demo project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
